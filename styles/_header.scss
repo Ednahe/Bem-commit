@@ -1,0 +1,64 @@
+header {
+  font-family: "Audiowide", sans-serif;
+  padding-bottom: 40px;
+  padding-left: 80px;
+  padding-right: 80px;
+  .containhead {
+      padding-bottom: 48px;
+    .lune {
+      background: url(../image/moon.svg) center;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: auto;
+      min-height: 320px;
+      h1 {
+        display: flex;
+        flex-direction: column;
+        padding-top: 40px;
+        .bem {
+          color: #fff;
+          font-size: 5.375em;
+          letter-spacing: 0.11em;
+          text-shadow: 0 0 0.5rem #7ed4d4, 0 0 0.25rem #7ed4d4;
+          text-align: center;
+        }
+        .cheat {
+          color: turquoise;
+          font-size: 32px;
+          font-weight: 300;
+          text-shadow: none;
+          letter-spacing: 0.34em;
+          text-align: center;
+        }
+      }
+    }
+  }
+  .firstsection {
+    div {
+        padding-left: 10%;
+        padding-right: 10%;
+      p {
+        text-align: center;
+        color: white;
+        font-family: "Fira_Sans", sans-serif;
+        font-size: 24px;
+        letter-spacing: 1px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        line-height: 1.5;
+        font-weight: 200;
+        a {
+            color: turquoise;
+            text-decoration: none;
+
+        }
+        a:hover {
+            transition: text-shadow 0.2s ease-out;
+            color: #fff;
+            border: 0.5px dashed #f09;
+            text-shadow: 0 0 0.5rem #7ed4d4, 0 0 0.25rem #7ed4d4;
+        }
+      }
+    }
+  }
+}

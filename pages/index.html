@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/font.css" />
+    <link rel="stylesheet" href="../styles/reseter.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <title>BEM</title>
+  </head>
+  <body>
+    <header>
+      <div class="containhead">
+        <div class="lune">
+          <h1>
+            <span class="bem">BEM</span>
+            <span class="cheat">CHEAT SHEET</span>
+          </h1>
+        </div>
+      </div>
+      <section class="firstsection">
+        <div class="firstcontain">
+          <p>
+            When it comes to finding the right class name, it can quickly drive
+            you to despair. Even the most experienced CSS developers don't
+            always find the right class name right away. This tool aims to help
+            you to not get lost in the BEM cosmos by giving you
+            naming-suggestions for some of the most common web components.
+          </p>
+          <p>
+            If you still have no idea what BEM means, we have added some
+            <a href="https://9elements.com/bem-cheat-sheet/#links"
+              >helpful links</a
+            >
+            below. For questions or suggestions for improvement, find me on
+            <a href="https://twitter.com/supremebeing09">twitter</a>. And last
+            but not least…if you like the little Astronaut, we made some
+            <a href="https://9elements.com/bem-cheat-sheet/#wallpapers"
+              >Wallpapers</a
+            >.
+          </p>
+        </div>
+      </section>
+    </header>
+    <main>
+      <aside>
+        <nav>
+          <ul class="firstul">
+            <li class="firstli">
+              <a class="nav_link" href="#">STANDARD BLOCKS</a>
+              <ul class="secondul">
+                <li class="secondli">
+                  <a class="nav_link" href="#">Breadcrumb</a>
+                </li>
+                <li class="secondli">
+                  <a class="nav_link" href="#">Button</a>
+                </li>
+                <li class="secondli">
+                  <a class="nav_link" href="#">Card I</a>
+                </li>
+                <li class="secondli">
+                  <a class="nav_link" href="#">Card II</a>
+                </li>
+                <li class="secondli">
+                  <a class="nav_link" href="#">List</a>
+                </li>
+                <li class="secondli">
+                  <a class="nav_link" href="#">Navigation</a>
+                </li>
+                <li class="secondli">
+                  <a class="nav_link" href="#">Tabs</a>
+                </li>
+              </ul>
+            </li>
+            <li class="firstli">
+              <a class="nav_link" href="#">FORM BLOCKS</a>
+              <ul class="secondul">
+                <li class="secondli">
+                  <a class="nav_link" href="#">Checkbox</a>
+                </li>
+                <li class="secondli">
+                  <a class="nav_link" href="#">Custom Checkbox</a>
+                </li>
+                <li class="secondli">
+                  <a class="nav_link" href="#">Input Group</a>
+                </li>
+              </ul>
+            </li>
+            <li class="firstli">
+              <a class="nav_link" href="#">LAYOUT BLOCKS</a>
+              <ul class="secondul">
+                <li class="secondli">
+                  <a class="nav_link" href="#">Imposter</a>
+                </li>
+                <li class="secondli">
+                  <a class="nav_link" href="#">Sidebar</a>
+                </li>
+                <li class="secondli">
+                  <a class="nav_link" href="#">Stack</a>
+                </li>
+              </ul>
+            </li>
+            <li class="firstli">
+              <a class="nav_link" href="#">FURTHER READING</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="containinput">
+          <input type="checkbox" class="input" />
+          <label>Show HTML</label>
+        </div>
+      </aside>
+      <div class="containsection">
+        <section class="secondsection">
+          <h2>STANDARD BLOCKS</h2>
+          <p class="secondpara">
+            In this section you will find elements that can be found on many
+            websites and web applications. In general, it is advisable to
+            consider whether a class name can be derived from the semantic HTML.
+            For example
+            <code>card__header</code>, <code>card__footer</code> or
+            <code>list__item</code> .
+          </p>
+        </section>
+
+        <section class="section_trois">
+          <h3>
+            BREADCRUMB
+            <a href="#header" class="containtriangle">
+              <span class="triangle"></span>
+            </a>
+          </h3>
+          <div class="contain__section__trois">
+            <div class="containblack">
+              <div class="breadcrumb" data-name="breadcrumb">
+                <div class="breadcrumb__list">
+                  <div class="breadcrumb__item">
+                    <div class="breadcrumb__link">
+                      <p class="parabread">Home</p>
+                    </div>
+                  </div>
+                  <div class="breadcrumb__item">
+                    <div class="breadcrumb__link">
+                      <p class="parabread">About</p>
+                    </div>
+                  </div>
+                  <div class="breadcrumb__item">
+                    <div class="breadcrumb__link">
+                      <p class="parabread">Vision</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="contain__text__right">
+              <p class="para__right">
+                <span class="note">NOTE:</span>
+                Don't use something like
+                <span class="span__right">Breadcrumb Navigation</span>
+                for the aria-label as this would result in a screenreader
+                announcing navigation twice
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="section_quatre">
+          <h3>
+            BUTTON
+            <a href="#header" class="containtriangle">
+              <span class="triangle"></span>
+            </a>
+          </h3>
+          <div class="contain__section__quatre">
+            <div class="contain__black">
+              <div class="div__button">
+                <div class="div__emote">
+                  <span>🚀</span>
+                </div>
+                <div class="central__button">
+                  <p>My Button</p>
+                </div>
+                <div class="div__emote">
+                  <span>👨‍🚀</span>
+                </div>
+              </div>
+            </div>
+            <div class="contain__text__right2">
+              <p class="para__right">
+                <span class="note">NOTE:</span>
+                This Button is more a link than a button. If you have a button
+                in a form that is not a link, you should use a
+                <span class="span__right">button</span>
+                element instead. Also note that most of the time you don't need an extra
+                <span class="span__right">button__body</span>
+                 element.
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>

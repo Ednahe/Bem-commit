@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Audiowide";
+    src: url(../font/Audiowide/Audiowide-Regular.ttf);
+}
+@font-face {
+    font-family: "Fira_Sans";
+    src: url(../font/Fira_Sans/FiraSans-Black.ttf);
+}
+@font-face {
+    font-family: "Fira_Sans";
+    src: url(../font/Fira_Sans/FiraSans-BlackItalic.ttf);
+}
+@font-face {
+    font-family: "Fira_Sans";
+    src: url(../font/Fira_Sans/FiraSans-Bold.ttf);
+}
+@font-face {
+    font-family: "Fira_Sans";
+    src: url(../font/Fira_Sans/FiraSans-Light.ttf);
+}
+@font-face {
+    font-family: "Fira_Sans";
+    src: url(../font/Fira_Sans/FiraSans-Medium.ttf);
+}
+@font-face {
+    font-family: "Fira_Sans";
+    src: url(../font/Fira_Sans/FiraSans-Regular.ttf);
+}
